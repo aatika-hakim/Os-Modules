@@ -7,7 +7,7 @@ let count = 0;
 
 event.on("countApi",()=>{
     count++;
-    console.log("event calling",count);
+    console.log("event called",count);
 })
 
 
